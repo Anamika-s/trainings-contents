@@ -1,0 +1,27 @@
+Middleware Demo > 
+https://github.com/Anamika-s/Middleware-CustomMiddlewareDemo.git
+
+MVC-Demo with CRUD operations in separate class >
+https://github.com/Anamika-s/MVC-Demo.git
+
+
+Scaffold-DbContext "Server=.\SQLExpress;Database=SchoolDB;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+scaffoldDbcontext
+add-migration
+update-migration
+remove-migration
+update-database -migration migration-name
+
+
+update-database -migration 20240224081903_addedtablebatch
+
+
+
+EF without Repo pattern >
+
+EF with Repo pattern > https://github.com/Anamika-s/EFCoreWithRepPattern.git
+
+
+
+
