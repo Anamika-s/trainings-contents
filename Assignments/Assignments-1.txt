@@ -1,0 +1,3 @@
+newsapp-step1-assignment : https://gitlab.com/anamikasawhney/newsapp-step1-assignment.git
+
+newsapp-step2-assignment : https://gitlab.com/anamikasawhney/newsapp-step2-assignment.git

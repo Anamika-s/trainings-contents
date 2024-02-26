@@ -23,5 +23,11 @@ EF without Repo pattern >
 EF with Repo pattern > https://github.com/Anamika-s/EFCoreWithRepPattern.git
 
 
+log4net appenders
+https://code-maze.com/csharp-log4net-appenders-introduction/
+
+
+
+
 
 
