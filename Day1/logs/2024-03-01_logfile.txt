@@ -1,0 +1,25 @@
+2024-03-01 20:25:07.7000 WARN List is e,p;lty
+2024-03-01 20:26:00.5282 WARN List is e,p;lty
+2024-03-01 20:38:09.6542 WARN List is e,p;lty
+2024-03-01 20:43:01.6374 INFO Insie Main
+2024-03-01 20:43:08.7317 WARN List is e,p;lty
+2024-03-01 20:51:25.2152 INFO Insie Main
+2024-03-01 20:51:25.3787 INFO User profile is available. Using 'C:\Users\anami\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-01 20:51:25.4373 INFO Now listening on: http://localhost:5164
+2024-03-01 20:51:25.4373 INFO Application started. Press Ctrl+C to shut down.
+2024-03-01 20:51:25.4373 INFO Hosting environment: Development
+2024-03-01 20:51:25.4373 INFO Content root path: C:\Users\anami\CourseApi\CourseApi\
+2024-03-01 20:51:26.2177 INFO Request starting HTTP/1.1 GET http://localhost:5164/weatherforecast - -
+2024-03-01 20:51:26.2925 INFO Request finished HTTP/1.1 GET http://localhost:5164/weatherforecast - - - 404 0 - 77.8790ms
+2024-03-01 20:51:26.3525 INFO Request starting HTTP/1.1 GET http://localhost:5164/favicon.ico - -
+2024-03-01 20:51:26.3525 INFO Request finished HTTP/1.1 GET http://localhost:5164/favicon.ico - - - 0 - - 0.5410ms
+2024-03-01 20:51:32.9973 INFO Request starting HTTP/1.1 GET http://localhost:5164/api/course - -
+2024-03-01 20:51:32.9973 INFO Executing endpoint 'CourseApi.Controllers.CourseController.Get (CourseApi)'
+2024-03-01 20:51:33.0498 INFO Route matched with {action = "Get", controller = "Course"}. Executing controller action with signature System.Collections.Generic.List`1[System.String] Get() on controller CourseApi.Controllers.CourseController (CourseApi).
+2024-03-01 20:51:33.0498 ERROR List is e,p;lty
+2024-03-01 20:51:33.0593 INFO Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-03-01 20:51:33.1561 INFO Executed action CourseApi.Controllers.CourseController.Get (CourseApi) in 102.5737ms
+2024-03-01 20:51:33.1561 INFO Executed endpoint 'CourseApi.Controllers.CourseController.Get (CourseApi)'
+2024-03-01 20:51:33.1561 INFO Request finished HTTP/1.1 GET http://localhost:5164/api/course - - - 200 - application/json;+charset=utf-8 159.7059ms
+2024-03-01 20:51:33.1739 INFO Request starting HTTP/1.1 GET http://localhost:5164/favicon.ico - -
+2024-03-01 20:51:33.1739 INFO Request finished HTTP/1.1 GET http://localhost:5164/favicon.ico - - - 0 - - 0.2674ms

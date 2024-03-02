@@ -1,0 +1,49 @@
+// JWT Authentication
+
+            builder.Services.AddAuthentication(x=>
+            {
+                x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+                x.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+            }).
+	AddJwtBearer(options =>
+	{
+		options.TokenValidationParameters = new TokenValidationParameters
+		{
+  		ValidateIssuer = true,	
+  		ValidateAudience = true,
+  		ValidateLifetime = true,
+  		ValidateIssuerSigningKey = true,
+  		ValidIssuer = builder.Configuration["Jwt:Issuer"],
+  		ValidAudience = builder.Configuration["Jwt:Audience"],
+  		IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+		};
+	});
+
+       builder.Services.AddSwaggerGen(options=>
+       {
+           options.AddSecurityDefinition(name: "Bearer", securityScheme: new OpenApiSecurityScheme()
+           {
+               Name = "Authorization",
+               Type = SecuritySchemeType.ApiKey,
+               Scheme = "Bearer",
+               BearerFormat = "JWT",
+               In = ParameterLocation.Header,
+               Description = "Sec"
+           });
+           options.AddSecurityRequirement(securityRequirement:new OpenApiSecurityRequirement
+           {
+               {
+                   new OpenApiSecurityScheme
+                   {
+                       Reference=new OpenApiReference{
+                       Type=ReferenceType.SecurityScheme,
+                       Id="Bearer"
+
+                       }
+                   },
+                   new String[]{ }
+                   }
+               
+           });
+       });

@@ -1,0 +1,509 @@
+2024-03-01 20:38:09.5829 Debug Message Template Auto Format enabled
+2024-03-01 20:38:09.6209 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-03-01 20:38:09.6225 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2024-03-01 20:38:09.6225 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-03-01 20:38:09.6225 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-03-01 20:38:09.6225 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-03-01 20:38:09.6225 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-03-01 20:38:09.6225 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-03-01 20:38:09.6225 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-03-01 20:38:09.6225 Debug Adding target NLog.Targets.FileTarget(Name=logfile)
+2024-03-01 20:38:09.6225 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-03-01 20:38:09.6225 Trace ParseRulesElement
+2024-03-01 20:38:09.6225 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-03-01 20:38:09.6392 Debug Start watching file-filter 'NLog.config' in directory: C:\Users\anami\CourseApi\CourseApi\bin\Debug\net6.0
+2024-03-01 20:38:09.6392 Debug --- NLog configuration dump ---
+2024-03-01 20:38:09.6392 Debug Targets:
+2024-03-01 20:38:09.6392 Debug FileTarget(Name=logfile)
+2024-03-01 20:38:09.6392 Debug Rules:
+2024-03-01 20:38:09.6392 Debug logNamePattern: (:All) levels: [ Info Warn Error Fatal ] writeTo: [ logfile ]
+2024-03-01 20:38:09.6392 Debug --- End of NLog configuration dump ---
+2024-03-01 20:38:09.6392 Trace FindReachableObject<System.Object>:
+2024-03-01 20:38:09.6392 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Info Warn Error Fatal ] writeTo: [ logfile ]'
+2024-03-01 20:38:09.6392 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2024-03-01 20:38:09.6392 Trace  Scanning FileTarget 'FileTarget(Name=logfile)'
+2024-03-01 20:38:09.6392 Trace   Scanning Property FileName 'C:/Users/anami/Amity/Day1/logs/${shortdate}_logfile.txt' NLog.Layouts.Layout
+2024-03-01 20:38:09.6392 Trace   Scanning SimpleLayout 'C:/Users/anami/Amity/Day1/logs/${shortdate}_logfile.txt'
+2024-03-01 20:38:09.6392 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-03-01 20:38:09.6392 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-03-01 20:38:09.6392 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2024-03-01 20:38:09.6392 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-03-01 20:38:09.6392 Trace   Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts.Layout
+2024-03-01 20:38:09.6392 Trace   Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2024-03-01 20:38:09.6392 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-03-01 20:38:09.6392 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-03-01 20:38:09.6392 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-03-01 20:38:09.6392 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-03-01 20:38:09.6392 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-03-01 20:38:09.6392 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-03-01 20:38:09.6392 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2024-03-01 20:38:09.6392 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2024-03-01 20:38:09.6392 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\anami\CourseApi\CourseApi\bin\Debug\net6.0\NLog.config
+2024-03-01 20:38:09.6392 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2024-03-01 20:38:09.6542 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2024-03-01 20:38:09.6542 Trace Initializing Layout Renderer: ${message}
+2024-03-01 20:38:09.6542 Trace Initializing Layout Renderer: ${literal}
+2024-03-01 20:38:09.6542 Trace Initializing Layout Renderer: ${level}
+2024-03-01 20:38:09.6542 Trace Initializing Layout Renderer: ${literal}
+2024-03-01 20:38:09.6542 Trace Initializing Layout Renderer: ${longdate}
+2024-03-01 20:38:09.6542 Trace Initializing ${longdate} ${level:uppercase=true} ${message}
+2024-03-01 20:38:09.6542 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-03-01 20:38:09.6542 Trace Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2024-03-01 20:38:09.6542 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-03-01 20:38:09.6542 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-03-01 20:38:09.6542 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-03-01 20:38:09.6542 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-03-01 20:38:09.6542 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-03-01 20:38:09.6542 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-03-01 20:38:09.6542 Trace Initializing Layout Renderer: ${literal}
+2024-03-01 20:38:09.6542 Trace Initializing Layout Renderer: ${shortdate}
+2024-03-01 20:38:09.6542 Trace Initializing Layout Renderer: ${literal}
+2024-03-01 20:38:09.6542 Trace Initializing C:/Users/anami/Amity/Day1/logs/${shortdate}_logfile.txt
+2024-03-01 20:38:09.6542 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-03-01 20:38:09.6542 Trace Scanning SimpleLayout 'C:/Users/anami/Amity/Day1/logs/${shortdate}_logfile.txt'
+2024-03-01 20:38:09.6542 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-03-01 20:38:09.6542 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-03-01 20:38:09.6542 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2024-03-01 20:38:09.6542 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-03-01 20:38:09.6542 Trace Initializing FileTarget(Name=logfile)
+2024-03-01 20:38:09.6542 Trace FindReachableObject<NLog.Layouts.Layout>:
+2024-03-01 20:38:09.6542 Trace Scanning FileTarget 'FileTarget(Name=logfile)'
+2024-03-01 20:38:09.6542 Trace  Scanning Property FileName 'C:/Users/anami/Amity/Day1/logs/${shortdate}_logfile.txt' NLog.Layouts.Layout
+2024-03-01 20:38:09.6542 Trace  Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts.Layout
+2024-03-01 20:38:09.6542 Trace FileTarget(Name=logfile) has 2 layouts
+2024-03-01 20:38:09.6542 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2024-03-01 20:38:09.6542 Info Configuration initialized.
+2024-03-01 20:38:09.6542 Debug Targets configured when LogLevel >= Info for Logger: CourseController
+2024-03-01 20:38:09.6542 Debug Logger CourseController [Info] => logfile
+2024-03-01 20:38:09.6542 Debug Logger CourseController [Warn] => logfile
+2024-03-01 20:38:09.6542 Debug Logger CourseController [Error] => logfile
+2024-03-01 20:38:09.6542 Debug Logger CourseController [Fatal] => logfile
+2024-03-01 20:38:09.6746 Debug FileTarget(Name=logfile): Preparing for new file: 'C:/Users/anami/Amity/Day1/logs/2024-03-01_logfile.txt'
+2024-03-01 20:38:09.6746 Debug FileTarget(Name=logfile): Creating file appender: 'C:/Users/anami/Amity/Day1/logs/2024-03-01_logfile.txt'
+2024-03-01 20:38:09.6746 Trace FileTarget(Name=logfile): Opening C:/Users/anami/Amity/Day1/logs/2024-03-01_logfile.txt with allowFileSharedWriting=False
+2024-03-01 20:43:01.5766 Debug Message Template Auto Format enabled
+2024-03-01 20:43:01.5972 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-03-01 20:43:01.5972 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2024-03-01 20:43:01.5972 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-03-01 20:43:01.5972 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-03-01 20:43:01.5972 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-03-01 20:43:01.5972 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-03-01 20:43:01.5972 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-03-01 20:43:01.5972 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-03-01 20:43:01.5972 Debug Adding target NLog.Targets.FileTarget(Name=logfile)
+2024-03-01 20:43:01.5972 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-03-01 20:43:01.5972 Trace ParseRulesElement
+2024-03-01 20:43:01.6132 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-03-01 20:43:01.6132 Debug Start watching file-filter 'NLog.config' in directory: C:\Users\anami\CourseApi\CourseApi\bin\Debug\net6.0
+2024-03-01 20:43:01.6132 Debug --- NLog configuration dump ---
+2024-03-01 20:43:01.6132 Debug Targets:
+2024-03-01 20:43:01.6132 Debug FileTarget(Name=logfile)
+2024-03-01 20:43:01.6132 Debug Rules:
+2024-03-01 20:43:01.6132 Debug logNamePattern: (:All) levels: [ Info Warn Error Fatal ] writeTo: [ logfile ]
+2024-03-01 20:43:01.6132 Debug --- End of NLog configuration dump ---
+2024-03-01 20:43:01.6222 Trace FindReachableObject<System.Object>:
+2024-03-01 20:43:01.6222 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Info Warn Error Fatal ] writeTo: [ logfile ]'
+2024-03-01 20:43:01.6222 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2024-03-01 20:43:01.6222 Trace  Scanning FileTarget 'FileTarget(Name=logfile)'
+2024-03-01 20:43:01.6222 Trace   Scanning Property FileName 'C:/Users/anami/Amity/Day1/logs/${shortdate}_logfile.txt' NLog.Layouts.Layout
+2024-03-01 20:43:01.6222 Trace   Scanning SimpleLayout 'C:/Users/anami/Amity/Day1/logs/${shortdate}_logfile.txt'
+2024-03-01 20:43:01.6222 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-03-01 20:43:01.6222 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-03-01 20:43:01.6222 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2024-03-01 20:43:01.6222 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-03-01 20:43:01.6222 Trace   Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts.Layout
+2024-03-01 20:43:01.6222 Trace   Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2024-03-01 20:43:01.6222 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-03-01 20:43:01.6222 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-03-01 20:43:01.6222 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-03-01 20:43:01.6222 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-03-01 20:43:01.6222 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-03-01 20:43:01.6222 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-03-01 20:43:01.6222 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2024-03-01 20:43:01.6222 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2024-03-01 20:43:01.6222 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\anami\CourseApi\CourseApi\bin\Debug\net6.0\NLog.config
+2024-03-01 20:43:01.6222 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2024-03-01 20:43:01.6222 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2024-03-01 20:43:01.6222 Trace Initializing Layout Renderer: ${message}
+2024-03-01 20:43:01.6222 Trace Initializing Layout Renderer: ${literal}
+2024-03-01 20:43:01.6222 Trace Initializing Layout Renderer: ${level}
+2024-03-01 20:43:01.6222 Trace Initializing Layout Renderer: ${literal}
+2024-03-01 20:43:01.6222 Trace Initializing Layout Renderer: ${longdate}
+2024-03-01 20:43:01.6222 Trace Initializing ${longdate} ${level:uppercase=true} ${message}
+2024-03-01 20:43:01.6222 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-03-01 20:43:01.6222 Trace Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2024-03-01 20:43:01.6222 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-03-01 20:43:01.6222 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-03-01 20:43:01.6222 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-03-01 20:43:01.6222 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-03-01 20:43:01.6222 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-03-01 20:43:01.6222 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-03-01 20:43:01.6222 Trace Initializing Layout Renderer: ${literal}
+2024-03-01 20:43:01.6222 Trace Initializing Layout Renderer: ${shortdate}
+2024-03-01 20:43:01.6222 Trace Initializing Layout Renderer: ${literal}
+2024-03-01 20:43:01.6222 Trace Initializing C:/Users/anami/Amity/Day1/logs/${shortdate}_logfile.txt
+2024-03-01 20:43:01.6222 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-03-01 20:43:01.6222 Trace Scanning SimpleLayout 'C:/Users/anami/Amity/Day1/logs/${shortdate}_logfile.txt'
+2024-03-01 20:43:01.6374 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-03-01 20:43:01.6374 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-03-01 20:43:01.6374 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2024-03-01 20:43:01.6374 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-03-01 20:43:01.6374 Trace Initializing FileTarget(Name=logfile)
+2024-03-01 20:43:01.6374 Trace FindReachableObject<NLog.Layouts.Layout>:
+2024-03-01 20:43:01.6374 Trace Scanning FileTarget 'FileTarget(Name=logfile)'
+2024-03-01 20:43:01.6374 Trace  Scanning Property FileName 'C:/Users/anami/Amity/Day1/logs/${shortdate}_logfile.txt' NLog.Layouts.Layout
+2024-03-01 20:43:01.6374 Trace  Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts.Layout
+2024-03-01 20:43:01.6374 Trace FileTarget(Name=logfile) has 2 layouts
+2024-03-01 20:43:01.6374 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2024-03-01 20:43:01.6374 Info Configuration initialized.
+2024-03-01 20:43:01.6374 Debug Targets configured when LogLevel >= Info for Logger: CourseApi.Program
+2024-03-01 20:43:01.6374 Debug Logger CourseApi.Program [Info] => logfile
+2024-03-01 20:43:01.6374 Debug Logger CourseApi.Program [Warn] => logfile
+2024-03-01 20:43:01.6374 Debug Logger CourseApi.Program [Error] => logfile
+2024-03-01 20:43:01.6374 Debug Logger CourseApi.Program [Fatal] => logfile
+2024-03-01 20:43:01.6541 Debug FileTarget(Name=logfile): Preparing for new file: 'C:/Users/anami/Amity/Day1/logs/2024-03-01_logfile.txt'
+2024-03-01 20:43:01.6541 Debug FileTarget(Name=logfile): Creating file appender: 'C:/Users/anami/Amity/Day1/logs/2024-03-01_logfile.txt'
+2024-03-01 20:43:01.6541 Trace FileTarget(Name=logfile): Opening C:/Users/anami/Amity/Day1/logs/2024-03-01_logfile.txt with allowFileSharedWriting=False
+2024-03-01 20:43:08.7317 Debug Targets configured when LogLevel >= Info for Logger: CourseController
+2024-03-01 20:43:08.7317 Debug Logger CourseController [Info] => logfile
+2024-03-01 20:43:08.7317 Debug Logger CourseController [Warn] => logfile
+2024-03-01 20:43:08.7317 Debug Logger CourseController [Error] => logfile
+2024-03-01 20:43:08.7317 Debug Logger CourseController [Fatal] => logfile
+2024-03-01 20:51:25.1560 Debug Message Template Auto Format enabled
+2024-03-01 20:51:25.1772 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-03-01 20:51:25.1772 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2024-03-01 20:51:25.1772 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-03-01 20:51:25.1772 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-03-01 20:51:25.1772 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-03-01 20:51:25.1772 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-03-01 20:51:25.1772 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-03-01 20:51:25.1772 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-03-01 20:51:25.1772 Debug Adding target NLog.Targets.FileTarget(Name=logfile)
+2024-03-01 20:51:25.1772 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-03-01 20:51:25.1772 Trace ParseRulesElement
+2024-03-01 20:51:25.1924 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-03-01 20:51:25.1924 Debug Start watching file-filter 'NLog.config' in directory: C:\Users\anami\CourseApi\CourseApi\bin\Debug\net6.0
+2024-03-01 20:51:25.1924 Debug --- NLog configuration dump ---
+2024-03-01 20:51:25.1924 Debug Targets:
+2024-03-01 20:51:25.1924 Debug FileTarget(Name=logfile)
+2024-03-01 20:51:25.1924 Debug Rules:
+2024-03-01 20:51:25.1924 Debug logNamePattern: (:All) levels: [ Info Warn Error Fatal ] writeTo: [ logfile ]
+2024-03-01 20:51:25.1924 Debug --- End of NLog configuration dump ---
+2024-03-01 20:51:25.2015 Trace FindReachableObject<System.Object>:
+2024-03-01 20:51:25.2015 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Info Warn Error Fatal ] writeTo: [ logfile ]'
+2024-03-01 20:51:25.2015 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2024-03-01 20:51:25.2015 Trace  Scanning FileTarget 'FileTarget(Name=logfile)'
+2024-03-01 20:51:25.2015 Trace   Scanning Property FileName 'C:/Users/anami/Amity/Day1/logs/${shortdate}_logfile.txt' NLog.Layouts.Layout
+2024-03-01 20:51:25.2015 Trace   Scanning SimpleLayout 'C:/Users/anami/Amity/Day1/logs/${shortdate}_logfile.txt'
+2024-03-01 20:51:25.2015 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-03-01 20:51:25.2015 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-03-01 20:51:25.2015 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2024-03-01 20:51:25.2015 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-03-01 20:51:25.2015 Trace   Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts.Layout
+2024-03-01 20:51:25.2015 Trace   Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2024-03-01 20:51:25.2015 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-03-01 20:51:25.2015 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-03-01 20:51:25.2015 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-03-01 20:51:25.2015 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-03-01 20:51:25.2015 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-03-01 20:51:25.2015 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-03-01 20:51:25.2015 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2024-03-01 20:51:25.2015 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2024-03-01 20:51:25.2015 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\anami\CourseApi\CourseApi\bin\Debug\net6.0\NLog.config
+2024-03-01 20:51:25.2015 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2024-03-01 20:51:25.2015 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2024-03-01 20:51:25.2015 Trace Initializing Layout Renderer: ${message}
+2024-03-01 20:51:25.2015 Trace Initializing Layout Renderer: ${literal}
+2024-03-01 20:51:25.2015 Trace Initializing Layout Renderer: ${level}
+2024-03-01 20:51:25.2015 Trace Initializing Layout Renderer: ${literal}
+2024-03-01 20:51:25.2015 Trace Initializing Layout Renderer: ${longdate}
+2024-03-01 20:51:25.2015 Trace Initializing ${longdate} ${level:uppercase=true} ${message}
+2024-03-01 20:51:25.2015 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-03-01 20:51:25.2015 Trace Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2024-03-01 20:51:25.2015 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-03-01 20:51:25.2015 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-03-01 20:51:25.2015 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-03-01 20:51:25.2015 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-03-01 20:51:25.2015 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-03-01 20:51:25.2015 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-03-01 20:51:25.2152 Trace Initializing Layout Renderer: ${literal}
+2024-03-01 20:51:25.2152 Trace Initializing Layout Renderer: ${shortdate}
+2024-03-01 20:51:25.2152 Trace Initializing Layout Renderer: ${literal}
+2024-03-01 20:51:25.2152 Trace Initializing C:/Users/anami/Amity/Day1/logs/${shortdate}_logfile.txt
+2024-03-01 20:51:25.2152 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-03-01 20:51:25.2152 Trace Scanning SimpleLayout 'C:/Users/anami/Amity/Day1/logs/${shortdate}_logfile.txt'
+2024-03-01 20:51:25.2152 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-03-01 20:51:25.2152 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-03-01 20:51:25.2152 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2024-03-01 20:51:25.2152 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-03-01 20:51:25.2152 Trace Initializing FileTarget(Name=logfile)
+2024-03-01 20:51:25.2152 Trace FindReachableObject<NLog.Layouts.Layout>:
+2024-03-01 20:51:25.2152 Trace Scanning FileTarget 'FileTarget(Name=logfile)'
+2024-03-01 20:51:25.2152 Trace  Scanning Property FileName 'C:/Users/anami/Amity/Day1/logs/${shortdate}_logfile.txt' NLog.Layouts.Layout
+2024-03-01 20:51:25.2152 Trace  Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts.Layout
+2024-03-01 20:51:25.2152 Trace FileTarget(Name=logfile) has 2 layouts
+2024-03-01 20:51:25.2152 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2024-03-01 20:51:25.2152 Info Configuration initialized.
+2024-03-01 20:51:25.2152 Debug Targets configured when LogLevel >= Info for Logger: CourseApi.Program
+2024-03-01 20:51:25.2152 Debug Logger CourseApi.Program [Info] => logfile
+2024-03-01 20:51:25.2152 Debug Logger CourseApi.Program [Warn] => logfile
+2024-03-01 20:51:25.2152 Debug Logger CourseApi.Program [Error] => logfile
+2024-03-01 20:51:25.2152 Debug Logger CourseApi.Program [Fatal] => logfile
+2024-03-01 20:51:25.2328 Debug FileTarget(Name=logfile): Preparing for new file: 'C:/Users/anami/Amity/Day1/logs/2024-03-01_logfile.txt'
+2024-03-01 20:51:25.2328 Debug FileTarget(Name=logfile): Creating file appender: 'C:/Users/anami/Amity/Day1/logs/2024-03-01_logfile.txt'
+2024-03-01 20:51:25.2328 Trace FileTarget(Name=logfile): Opening C:/Users/anami/Amity/Day1/logs/2024-03-01_logfile.txt with allowFileSharedWriting=False
+2024-03-01 20:51:25.2328 Trace Assembly 'NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' will be hidden in callsite stacktrace
+2024-03-01 20:51:25.2831 Debug Hide assemblies for callsite
+2024-03-01 20:51:25.2831 Debug Skip loading NLogLoggingConfiguration from empty config section: NLog
+2024-03-01 20:51:25.2831 Trace FindReachableObject<System.Object>:
+2024-03-01 20:51:25.2831 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Info Warn Error Fatal ] writeTo: [ logfile ]'
+2024-03-01 20:51:25.2831 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2024-03-01 20:51:25.2831 Trace  Scanning FileTarget 'FileTarget(Name=logfile)'
+2024-03-01 20:51:25.2831 Trace   Scanning Property FileName 'C:/Users/anami/Amity/Day1/logs/${shortdate}_logfile.txt' NLog.Layouts.Layout
+2024-03-01 20:51:25.2831 Trace   Scanning SimpleLayout 'C:/Users/anami/Amity/Day1/logs/${shortdate}_logfile.txt'
+2024-03-01 20:51:25.2831 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-03-01 20:51:25.2831 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-03-01 20:51:25.2831 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2024-03-01 20:51:25.2831 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-03-01 20:51:25.2831 Trace   Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts.Layout
+2024-03-01 20:51:25.2831 Trace   Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2024-03-01 20:51:25.2831 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-03-01 20:51:25.2831 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-03-01 20:51:25.2831 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-03-01 20:51:25.2831 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-03-01 20:51:25.2831 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-03-01 20:51:25.2831 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-03-01 20:51:25.2831 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2024-03-01 20:51:25.2831 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2024-03-01 20:51:25.2831 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\anami\CourseApi\CourseApi\bin\Debug\net6.0\NLog.config
+2024-03-01 20:51:25.2831 Trace Initializing Layout Renderer: ${message}
+2024-03-01 20:51:25.2831 Trace Initializing Layout Renderer: ${literal}
+2024-03-01 20:51:25.2831 Trace Initializing Layout Renderer: ${level}
+2024-03-01 20:51:25.2831 Trace Initializing Layout Renderer: ${literal}
+2024-03-01 20:51:25.2831 Trace Initializing Layout Renderer: ${longdate}
+2024-03-01 20:51:25.2831 Trace Initializing ${longdate} ${level:uppercase=true} ${message}
+2024-03-01 20:51:25.2831 Trace Initializing Layout Renderer: ${literal}
+2024-03-01 20:51:25.2831 Trace Initializing Layout Renderer: ${shortdate}
+2024-03-01 20:51:25.2831 Trace Initializing Layout Renderer: ${literal}
+2024-03-01 20:51:25.2831 Trace Initializing C:/Users/anami/Amity/Day1/logs/${shortdate}_logfile.txt
+2024-03-01 20:51:25.2831 Trace Initializing FileTarget(Name=logfile)
+2024-03-01 20:51:25.2831 Trace FindReachableObject<NLog.Layouts.Layout>:
+2024-03-01 20:51:25.2831 Trace Scanning FileTarget 'FileTarget(Name=logfile)'
+2024-03-01 20:51:25.2831 Trace  Scanning Property FileName 'C:/Users/anami/Amity/Day1/logs/${shortdate}_logfile.txt' NLog.Layouts.Layout
+2024-03-01 20:51:25.2831 Trace  Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts.Layout
+2024-03-01 20:51:25.2831 Trace FileTarget(Name=logfile) has 2 layouts
+2024-03-01 20:51:25.2831 Debug Targets configured when LogLevel >= Info for Logger: CourseApi.Program
+2024-03-01 20:51:25.2831 Debug Logger CourseApi.Program [Info] => logfile
+2024-03-01 20:51:25.2831 Debug Logger CourseApi.Program [Warn] => logfile
+2024-03-01 20:51:25.2831 Debug Logger CourseApi.Program [Error] => logfile
+2024-03-01 20:51:25.2831 Debug Logger CourseApi.Program [Fatal] => logfile
+2024-03-01 20:51:25.2977 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.Extensions.Hosting.Internal.ApplicationLifetime
+2024-03-01 20:51:25.2977 Debug Logger Microsoft.Extensions.Hosting.Internal.ApplicationLifetime [Info] => logfile
+2024-03-01 20:51:25.2977 Debug Logger Microsoft.Extensions.Hosting.Internal.ApplicationLifetime [Warn] => logfile
+2024-03-01 20:51:25.2977 Debug Logger Microsoft.Extensions.Hosting.Internal.ApplicationLifetime [Error] => logfile
+2024-03-01 20:51:25.2977 Debug Logger Microsoft.Extensions.Hosting.Internal.ApplicationLifetime [Fatal] => logfile
+2024-03-01 20:51:25.2977 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.Extensions.Hosting.Internal.Host
+2024-03-01 20:51:25.2977 Debug Logger Microsoft.Extensions.Hosting.Internal.Host [Info] => logfile
+2024-03-01 20:51:25.2977 Debug Logger Microsoft.Extensions.Hosting.Internal.Host [Warn] => logfile
+2024-03-01 20:51:25.2977 Debug Logger Microsoft.Extensions.Hosting.Internal.Host [Error] => logfile
+2024-03-01 20:51:25.2977 Debug Logger Microsoft.Extensions.Hosting.Internal.Host [Fatal] => logfile
+2024-03-01 20:51:25.2977 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.Hosting.Lifetime
+2024-03-01 20:51:25.2977 Debug Logger Microsoft.Hosting.Lifetime [Info] => logfile
+2024-03-01 20:51:25.2977 Debug Logger Microsoft.Hosting.Lifetime [Warn] => logfile
+2024-03-01 20:51:25.2977 Debug Logger Microsoft.Hosting.Lifetime [Error] => logfile
+2024-03-01 20:51:25.2977 Debug Logger Microsoft.Hosting.Lifetime [Fatal] => logfile
+2024-03-01 20:51:25.2977 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer
+2024-03-01 20:51:25.2977 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer [Info] => logfile
+2024-03-01 20:51:25.2977 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer [Warn] => logfile
+2024-03-01 20:51:25.2977 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer [Error] => logfile
+2024-03-01 20:51:25.2977 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer [Fatal] => logfile
+2024-03-01 20:51:25.2977 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware
+2024-03-01 20:51:25.2977 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware [Info] => logfile
+2024-03-01 20:51:25.2977 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware [Warn] => logfile
+2024-03-01 20:51:25.2977 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware [Error] => logfile
+2024-03-01 20:51:25.2977 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware [Fatal] => logfile
+2024-03-01 20:51:25.2977 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Server.Kestrel
+2024-03-01 20:51:25.2977 Debug Logger Microsoft.AspNetCore.Server.Kestrel [Info] => logfile
+2024-03-01 20:51:25.2977 Debug Logger Microsoft.AspNetCore.Server.Kestrel [Warn] => logfile
+2024-03-01 20:51:25.2977 Debug Logger Microsoft.AspNetCore.Server.Kestrel [Error] => logfile
+2024-03-01 20:51:25.2977 Debug Logger Microsoft.AspNetCore.Server.Kestrel [Fatal] => logfile
+2024-03-01 20:51:25.2977 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Server.Kestrel.BadRequests
+2024-03-01 20:51:25.2977 Debug Logger Microsoft.AspNetCore.Server.Kestrel.BadRequests [Info] => logfile
+2024-03-01 20:51:25.2977 Debug Logger Microsoft.AspNetCore.Server.Kestrel.BadRequests [Warn] => logfile
+2024-03-01 20:51:25.2977 Debug Logger Microsoft.AspNetCore.Server.Kestrel.BadRequests [Error] => logfile
+2024-03-01 20:51:25.2977 Debug Logger Microsoft.AspNetCore.Server.Kestrel.BadRequests [Fatal] => logfile
+2024-03-01 20:51:25.2977 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Server.Kestrel.Connections
+2024-03-01 20:51:25.2977 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Connections [Info] => logfile
+2024-03-01 20:51:25.2977 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Connections [Warn] => logfile
+2024-03-01 20:51:25.2977 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Connections [Error] => logfile
+2024-03-01 20:51:25.2977 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Connections [Fatal] => logfile
+2024-03-01 20:51:25.2977 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Server.Kestrel.Http2
+2024-03-01 20:51:25.2977 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http2 [Info] => logfile
+2024-03-01 20:51:25.2977 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http2 [Warn] => logfile
+2024-03-01 20:51:25.2977 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http2 [Error] => logfile
+2024-03-01 20:51:25.2977 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http2 [Fatal] => logfile
+2024-03-01 20:51:25.2977 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Server.Kestrel.Http3
+2024-03-01 20:51:25.2977 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http3 [Info] => logfile
+2024-03-01 20:51:25.2977 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http3 [Warn] => logfile
+2024-03-01 20:51:25.2977 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http3 [Error] => logfile
+2024-03-01 20:51:25.2977 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http3 [Fatal] => logfile
+2024-03-01 20:51:25.3111 Debug Targets configured when LogLevel >= Info for Logger: CourseApi
+2024-03-01 20:51:25.3111 Debug Logger CourseApi [Info] => logfile
+2024-03-01 20:51:25.3111 Debug Logger CourseApi [Warn] => logfile
+2024-03-01 20:51:25.3111 Debug Logger CourseApi [Error] => logfile
+2024-03-01 20:51:25.3111 Debug Logger CourseApi [Fatal] => logfile
+2024-03-01 20:51:25.3111 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter
+2024-03-01 20:51:25.3111 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter [Info] => logfile
+2024-03-01 20:51:25.3111 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter [Warn] => logfile
+2024-03-01 20:51:25.3111 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter [Error] => logfile
+2024-03-01 20:51:25.3111 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter [Fatal] => logfile
+2024-03-01 20:51:25.3267 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter
+2024-03-01 20:51:25.3267 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter [Info] => logfile
+2024-03-01 20:51:25.3267 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter [Warn] => logfile
+2024-03-01 20:51:25.3267 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter [Error] => logfile
+2024-03-01 20:51:25.3267 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter [Fatal] => logfile
+2024-03-01 20:51:25.3267 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory
+2024-03-01 20:51:25.3267 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory [Info] => logfile
+2024-03-01 20:51:25.3267 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory [Warn] => logfile
+2024-03-01 20:51:25.3267 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory [Error] => logfile
+2024-03-01 20:51:25.3267 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory [Fatal] => logfile
+2024-03-01 20:51:25.3267 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder
+2024-03-01 20:51:25.3267 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Info] => logfile
+2024-03-01 20:51:25.3267 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Warn] => logfile
+2024-03-01 20:51:25.3267 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Error] => logfile
+2024-03-01 20:51:25.3267 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Fatal] => logfile
+2024-03-01 20:51:25.3405 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+2024-03-01 20:51:25.3405 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Info] => logfile
+2024-03-01 20:51:25.3405 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Warn] => logfile
+2024-03-01 20:51:25.3405 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Error] => logfile
+2024-03-01 20:51:25.3405 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Fatal] => logfile
+2024-03-01 20:51:25.3603 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.DataProtection.TypeForwardingActivator
+2024-03-01 20:51:25.3603 Debug Logger Microsoft.AspNetCore.DataProtection.TypeForwardingActivator [Info] => logfile
+2024-03-01 20:51:25.3603 Debug Logger Microsoft.AspNetCore.DataProtection.TypeForwardingActivator [Warn] => logfile
+2024-03-01 20:51:25.3603 Debug Logger Microsoft.AspNetCore.DataProtection.TypeForwardingActivator [Error] => logfile
+2024-03-01 20:51:25.3603 Debug Logger Microsoft.AspNetCore.DataProtection.TypeForwardingActivator [Fatal] => logfile
+2024-03-01 20:51:25.3603 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager
+2024-03-01 20:51:25.3603 Debug Logger Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Info] => logfile
+2024-03-01 20:51:25.3603 Debug Logger Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Warn] => logfile
+2024-03-01 20:51:25.3603 Debug Logger Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Error] => logfile
+2024-03-01 20:51:25.3603 Debug Logger Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Fatal] => logfile
+2024-03-01 20:51:25.3603 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngGcmAuthenticatedEncryptorFactory
+2024-03-01 20:51:25.3603 Debug Logger Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngGcmAuthenticatedEncryptorFactory [Info] => logfile
+2024-03-01 20:51:25.3603 Debug Logger Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngGcmAuthenticatedEncryptorFactory [Warn] => logfile
+2024-03-01 20:51:25.3603 Debug Logger Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngGcmAuthenticatedEncryptorFactory [Error] => logfile
+2024-03-01 20:51:25.3603 Debug Logger Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngGcmAuthenticatedEncryptorFactory [Fatal] => logfile
+2024-03-01 20:51:25.3603 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory
+2024-03-01 20:51:25.3603 Debug Logger Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory [Info] => logfile
+2024-03-01 20:51:25.3603 Debug Logger Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory [Warn] => logfile
+2024-03-01 20:51:25.3603 Debug Logger Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory [Error] => logfile
+2024-03-01 20:51:25.3603 Debug Logger Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory [Fatal] => logfile
+2024-03-01 20:51:25.3603 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ManagedAuthenticatedEncryptorFactory
+2024-03-01 20:51:25.3603 Debug Logger Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ManagedAuthenticatedEncryptorFactory [Info] => logfile
+2024-03-01 20:51:25.3603 Debug Logger Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ManagedAuthenticatedEncryptorFactory [Warn] => logfile
+2024-03-01 20:51:25.3603 Debug Logger Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ManagedAuthenticatedEncryptorFactory [Error] => logfile
+2024-03-01 20:51:25.3603 Debug Logger Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ManagedAuthenticatedEncryptorFactory [Fatal] => logfile
+2024-03-01 20:51:25.3603 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlEncryptor
+2024-03-01 20:51:25.3603 Debug Logger Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlEncryptor [Info] => logfile
+2024-03-01 20:51:25.3603 Debug Logger Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlEncryptor [Warn] => logfile
+2024-03-01 20:51:25.3603 Debug Logger Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlEncryptor [Error] => logfile
+2024-03-01 20:51:25.3603 Debug Logger Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlEncryptor [Fatal] => logfile
+2024-03-01 20:51:25.3603 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository
+2024-03-01 20:51:25.3603 Debug Logger Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository [Info] => logfile
+2024-03-01 20:51:25.3603 Debug Logger Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository [Warn] => logfile
+2024-03-01 20:51:25.3603 Debug Logger Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository [Error] => logfile
+2024-03-01 20:51:25.3603 Debug Logger Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository [Fatal] => logfile
+2024-03-01 20:51:25.3787 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver
+2024-03-01 20:51:25.3787 Debug Logger Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver [Info] => logfile
+2024-03-01 20:51:25.3787 Debug Logger Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver [Warn] => logfile
+2024-03-01 20:51:25.3787 Debug Logger Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver [Error] => logfile
+2024-03-01 20:51:25.3787 Debug Logger Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver [Fatal] => logfile
+2024-03-01 20:51:25.3787 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider
+2024-03-01 20:51:25.3787 Debug Logger Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider [Info] => logfile
+2024-03-01 20:51:25.3787 Debug Logger Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider [Warn] => logfile
+2024-03-01 20:51:25.3787 Debug Logger Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider [Error] => logfile
+2024-03-01 20:51:25.3787 Debug Logger Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider [Fatal] => logfile
+2024-03-01 20:51:25.3787 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService
+2024-03-01 20:51:25.3787 Debug Logger Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService [Info] => logfile
+2024-03-01 20:51:25.3787 Debug Logger Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService [Warn] => logfile
+2024-03-01 20:51:25.3787 Debug Logger Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService [Error] => logfile
+2024-03-01 20:51:25.3787 Debug Logger Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService [Fatal] => logfile
+2024-03-01 20:51:25.3787 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Hosting.Diagnostics
+2024-03-01 20:51:25.3787 Debug Logger Microsoft.AspNetCore.Hosting.Diagnostics [Info] => logfile
+2024-03-01 20:51:25.3787 Debug Logger Microsoft.AspNetCore.Hosting.Diagnostics [Warn] => logfile
+2024-03-01 20:51:25.3787 Debug Logger Microsoft.AspNetCore.Hosting.Diagnostics [Error] => logfile
+2024-03-01 20:51:25.3787 Debug Logger Microsoft.AspNetCore.Hosting.Diagnostics [Fatal] => logfile
+2024-03-01 20:51:25.3940 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor
+2024-03-01 20:51:25.3940 Debug Logger Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor [Info] => logfile
+2024-03-01 20:51:25.3940 Debug Logger Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor [Warn] => logfile
+2024-03-01 20:51:25.3940 Debug Logger Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor [Error] => logfile
+2024-03-01 20:51:25.3940 Debug Logger Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor [Fatal] => logfile
+2024-03-01 20:51:25.4084 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Routing.EndpointMiddleware
+2024-03-01 20:51:25.4084 Debug Logger Microsoft.AspNetCore.Routing.EndpointMiddleware [Info] => logfile
+2024-03-01 20:51:25.4084 Debug Logger Microsoft.AspNetCore.Routing.EndpointMiddleware [Warn] => logfile
+2024-03-01 20:51:25.4084 Debug Logger Microsoft.AspNetCore.Routing.EndpointMiddleware [Error] => logfile
+2024-03-01 20:51:25.4084 Debug Logger Microsoft.AspNetCore.Routing.EndpointMiddleware [Fatal] => logfile
+2024-03-01 20:51:25.4084 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+2024-03-01 20:51:25.4084 Debug Logger Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Info] => logfile
+2024-03-01 20:51:25.4084 Debug Logger Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Warn] => logfile
+2024-03-01 20:51:25.4084 Debug Logger Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Error] => logfile
+2024-03-01 20:51:25.4084 Debug Logger Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Fatal] => logfile
+2024-03-01 20:51:25.4218 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware
+2024-03-01 20:51:25.4218 Debug Logger Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Info] => logfile
+2024-03-01 20:51:25.4218 Debug Logger Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Warn] => logfile
+2024-03-01 20:51:25.4218 Debug Logger Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Error] => logfile
+2024-03-01 20:51:25.4218 Debug Logger Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Fatal] => logfile
+2024-03-01 20:51:25.4218 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware
+2024-03-01 20:51:25.4218 Debug Logger Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [Info] => logfile
+2024-03-01 20:51:25.4218 Debug Logger Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [Warn] => logfile
+2024-03-01 20:51:25.4218 Debug Logger Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [Error] => logfile
+2024-03-01 20:51:25.4218 Debug Logger Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [Fatal] => logfile
+2024-03-01 20:51:25.4218 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware
+2024-03-01 20:51:25.4218 Debug Logger Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware [Info] => logfile
+2024-03-01 20:51:25.4218 Debug Logger Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware [Warn] => logfile
+2024-03-01 20:51:25.4218 Debug Logger Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware [Error] => logfile
+2024-03-01 20:51:25.4218 Debug Logger Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware [Fatal] => logfile
+2024-03-01 20:51:25.4218 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware
+2024-03-01 20:51:25.4218 Debug Logger Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware [Info] => logfile
+2024-03-01 20:51:25.4218 Debug Logger Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware [Warn] => logfile
+2024-03-01 20:51:25.4218 Debug Logger Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware [Error] => logfile
+2024-03-01 20:51:25.4218 Debug Logger Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware [Fatal] => logfile
+2024-03-01 20:51:25.4218 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets
+2024-03-01 20:51:25.4218 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Info] => logfile
+2024-03-01 20:51:25.4218 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Warn] => logfile
+2024-03-01 20:51:25.4218 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Error] => logfile
+2024-03-01 20:51:25.4218 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Fatal] => logfile
+2024-03-01 20:51:26.2462 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Routing.Matching.DfaMatcher
+2024-03-01 20:51:26.2462 Debug Logger Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Info] => logfile
+2024-03-01 20:51:26.2462 Debug Logger Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Warn] => logfile
+2024-03-01 20:51:26.2462 Debug Logger Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Error] => logfile
+2024-03-01 20:51:26.2462 Debug Logger Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Fatal] => logfile
+2024-03-01 20:51:26.2495 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler
+2024-03-01 20:51:26.2495 Debug Logger Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler [Info] => logfile
+2024-03-01 20:51:26.2495 Debug Logger Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler [Warn] => logfile
+2024-03-01 20:51:26.2495 Debug Logger Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler [Error] => logfile
+2024-03-01 20:51:26.2495 Debug Logger Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler [Fatal] => logfile
+2024-03-01 20:51:33.0144 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter
+2024-03-01 20:51:33.0144 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter [Info] => logfile
+2024-03-01 20:51:33.0144 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter [Warn] => logfile
+2024-03-01 20:51:33.0144 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter [Error] => logfile
+2024-03-01 20:51:33.0144 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter [Fatal] => logfile
+2024-03-01 20:51:33.0144 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter
+2024-03-01 20:51:33.0144 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter [Info] => logfile
+2024-03-01 20:51:33.0144 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter [Warn] => logfile
+2024-03-01 20:51:33.0144 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter [Error] => logfile
+2024-03-01 20:51:33.0144 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter [Fatal] => logfile
+2024-03-01 20:51:33.0498 Debug Targets configured when LogLevel >= Info for Logger: CourseApi.Controllers.CourseController
+2024-03-01 20:51:33.0498 Debug Logger CourseApi.Controllers.CourseController [Info] => logfile
+2024-03-01 20:51:33.0498 Debug Logger CourseApi.Controllers.CourseController [Warn] => logfile
+2024-03-01 20:51:33.0498 Debug Logger CourseApi.Controllers.CourseController [Error] => logfile
+2024-03-01 20:51:33.0498 Debug Logger CourseApi.Controllers.CourseController [Fatal] => logfile
+2024-03-01 20:51:33.0498 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector
+2024-03-01 20:51:33.0498 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector [Info] => logfile
+2024-03-01 20:51:33.0498 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector [Warn] => logfile
+2024-03-01 20:51:33.0498 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector [Error] => logfile
+2024-03-01 20:51:33.0593 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector [Fatal] => logfile
+2024-03-01 20:51:33.0593 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor
+2024-03-01 20:51:33.0593 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Info] => logfile
+2024-03-01 20:51:33.0593 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Warn] => logfile
+2024-03-01 20:51:33.0593 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Error] => logfile
+2024-03-01 20:51:33.0593 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Fatal] => logfile
